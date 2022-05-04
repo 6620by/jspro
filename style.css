@@ -2,3 +2,9 @@ body {
     background: #d3d3d3;
     color: #fcfcfc;
 }
+
+.block {
+    margin: 0;
+    padding: 0;
+    color: #950500;
+}
