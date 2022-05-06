@@ -2,12 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Git Pro</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header><nav><ul><li>Home Page!</li><li>News!</li></ul></nav></header><main>
 News today! Ppz! Pizdc</main>
 <footer class="block">&copy; 2022</footer>
+
+<script>
+    let showingAlert = false;
+    const interval = setInterval(() => {
+        document.title = showingAlert ? 'Chat App' : '(1) New Message';
+        showingAlert = !showingAlert;
+        }, 1000);
+    </script>
+
 </body>
 </html>
